@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import os
+import numpy
 
 st.set_page_config(layout="wide")
 
@@ -183,7 +184,6 @@ with st.container():
         'Percentage_y': 'Education_Percentage'
     })
 
-    # Scatter plot
     fig_combined = px.scatter(
         df_combined,
         x="Health_Percentage",
@@ -193,9 +193,16 @@ with st.container():
             "Health_Percentage": selected_question.strip(),
             "Education_Percentage": f"% {edu_group}"
         },
-        title=f"Correlation between '{selected_question.strip()}' and Education in {selected_year}",
-        trendline="ols"
+        title=f"Correlation between '{selected_question.strip()}' and Education in {selected_year}"
+        # ⛔ trendline removed
     )
+
+    corr = np.corrcoef(
+        df_combined["Health_Percentage"],
+        df_combined["Education_Percentage"]
+    )[0, 1]
+
+    st.write(f"Pearson correlation: **{corr:.2f}**")
 
     fig_combined.update_traces(marker=dict(size=12, color="blue"))
     fig_combined.update_layout(height=600)
