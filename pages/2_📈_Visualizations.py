@@ -197,13 +197,23 @@ with st.container():
         # ⛔ trendline removed
     )
 
+    # Calculate correlation coefficient
     corr = np.corrcoef(
         df_combined["Health_Percentage"],
         df_combined["Education_Percentage"]
     )[0, 1]
-
     st.write(f"Pearson correlation: **{corr:.2f}**")
-
+    
+    # Fit linear regression manually
+    x = df_combined["Health_Percentage"]
+    y = df_combined["Education_Percentage"]
+    slope, intercept = np.polyfit(x, y, 1)
+    line_x = np.linspace(x.min(), x.max(), 100)
+    line_y = slope * line_x + intercept
+    
+    # Add regression line
+    fig_combined.add_scatter(x=line_x, y=line_y, mode="lines", name="Regression Line", line=dict(color="red"))
+    
     fig_combined.update_traces(marker=dict(size=12, color="blue"))
     fig_combined.update_layout(height=600)
     st.plotly_chart(fig_combined)
