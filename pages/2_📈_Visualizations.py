@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import os
-import numpy
+import numpy as np
 
 st.set_page_config(layout="wide")
 
