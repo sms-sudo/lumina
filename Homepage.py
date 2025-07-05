@@ -18,9 +18,9 @@ st.markdown("### 🔗 Jump to Section")
 st.markdown("""
 - [📌 Executive Summary](#dc16351e)
 - [🎯 Introduction: Defining the Public Value of Postsecondary Education](#introduction-defining-the-public-value-of-postsecondary-education)
-- [🔍 Purpose and Objectives of the Report](#8e24fac5)
-- [🧭 Overview of Existing Frameworks](#6649edcc)
-- [🧮 Health, Demographic, and Socioeconomic Variables](#21042c9)
+- [🔍 Purpose and Objectives of the Report](#purpose-and-objectives-of-the-report)
+- [🧭 Overview of Existing Frameworks](#overview-of-existing-frameworks)
+- [🧮 Health, Demographic, and Socioeconomic Variables](#health-demographic-and-socioeconomic-variables)
 """, unsafe_allow_html=True)
 
 st.markdown("---")
