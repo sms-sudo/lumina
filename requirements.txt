@@ -2,4 +2,5 @@ streamlit
 pandas
 plotly
 statsmodels
-scipy
+scipy==1.11.4
+numpy
