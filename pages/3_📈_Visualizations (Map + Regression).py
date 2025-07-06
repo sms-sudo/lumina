@@ -60,7 +60,7 @@ question_to_filename = {
     "    🍻 Alcohol drink within past 30 days": "alcohol drink/within last 30 days",
     "    🍺 Binge drinkers (M 5+, F 4+ on one occasion)": "alcohol drink/Binge drinkers (males having five or more drinks on one occasion, females having four or more drinks on one occasion)",
     "    🍷 Heavy drinkers (M 14+, F 7+ in one week)": "alcohol drink/Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)",
-    "    🍎 Consumed fruit less than one time per day": "fruit consumption/Consumed fruit less than one time per day (variable calculated from one or more BRFSS questions)",
+    "    🍎 Consumed fruit at least one time per day": "fruit consumption/Consumed fruit more than one time per day (variable calculated from one or more BRFSS questions)",
     "    🏃 Completed physical activity within past month": "physical activity/physical activity within past month",
     "    💉 Adults aged 65+ w/ flu shot": "flu shot/Adults aged 65+ who have had a flu shot within the past year (variable calculated from one or more BRFSS questions)",
     "    💉 Adults aged 65+ who have ever had a pneumonia vaccination": "pneumonia vaccination/Adults aged 65+ who have ever had a pneumonia vaccination (variable calculated from one or more BRFSS questions)",
