@@ -5,7 +5,7 @@ from pathlib import Path
 from io import StringIO
 
 st.set_page_config(page_title="📊 Dataset Explorer", layout="wide")
-st.title("📋 Explore Survey Questions by Category")
+st.title("📋 Explore Analysis by Category")
 
 def parse_blocked_education_df(raw_df):
     records = []
