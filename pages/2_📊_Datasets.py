@@ -146,6 +146,28 @@ if selected_display in question_to_filename:
 else:
     st.info("Please select a valid question (not a category heading).")
 
+if selected_display in question_to_filename and years:
+    combined_df = pd.DataFrame()
+
+    for year in sorted_years:
+        file_path = Path(__file__).resolve().parents[1] / "pages/data" / f"{base_filename}_{year}.csv"
+        if file_path.exists():
+            temp_df = parse_blocked_education_df(pd.read_csv(file_path))
+            if "n" in temp_df.columns:
+                temp_df = temp_df.drop(columns=["n"])
+            temp_df["Year"] = year
+            combined_df = pd.concat([combined_df, temp_df], ignore_index=True)
+
+    if not combined_df.empty:
+        csv_data = combined_df.to_csv(index=False).encode("utf-8")
+        st.download_button(
+            label="⬇️ Download Combined CSV",
+            data=csv_data,
+            file_name=f"{base_filename.replace('/', '_')}_combined.csv",
+            mime="text/csv",
+            use_container_width=True
+        )
+
 # --- FOOTER ---
 st.markdown("---")
 st.caption("M. Abdalla 2025")
