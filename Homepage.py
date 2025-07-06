@@ -1,4 +1,11 @@
 import streamlit as st
+from PIL import Image
+
+# Load image (ensure the path is correct relative to your script)
+image = Image.open("public value metric dashboard.jpg")
+
+# Display as header image (with optional width or use_column_width)
+st.image(image)  # Makes it span the full width of the content area
 
 st.set_page_config(page_title="Lumina Challenge Submission", layout="wide")
 
