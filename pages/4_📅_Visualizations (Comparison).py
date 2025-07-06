@@ -142,4 +142,4 @@ with st.expander("📄 Show Table"):
 
 # --- FOOTER ---
 st.markdown("---")
-st.caption("M. Abdalla 2025")
+st.caption("M. Abdalla 2025, Demo developed by affiliates of Harvard Medical School and Massachusetts General Hospital")
