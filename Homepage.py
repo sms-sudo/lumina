@@ -30,12 +30,10 @@ st.markdown("---")
 # --- SECTION: Executive Summary ---
 st.markdown("## 📌 Executive Summary")
 st.write("""
-This report systematically quantifies the public returns to postsecondary education in the United States by leveraging existing national datasets. 
-It proposes a multi-dimensional framework that extends beyond traditional individual economic gains, encompassing broader societal benefits across 
-economic well-being, public health, community vitality, and public safety.
+This report systematically quantifies the public returns to postsecondary education in the United States by leveraging existing national datasets. It proposes a multidimensional framework that extends beyond traditional individual economic gains, encompassing broader societal benefits across economic well-being, public health, community vitality, and public safety. The analysis identifies key metrics and their associated national datasets, emphasizing their disaggregation capabilities at educational and regional levels. The findings underscore that higher educational attainment is consistently associated with a more robust economy, improved public health outcomes, enhanced civic engagement and social mobility, and a safer society.
+While acknowledging current data limitations, particularly regarding granular disaggregation for certain outcomes, this report provides a comprehensive, data-driven foundation for understanding and articulating the profound collective benefits of investing in postsecondary education.
 
-The findings underscore that higher educational attainment is consistently associated with a more robust economy, improved public health outcomes, 
-enhanced civic engagement and social mobility, and a safer society.
+An interactive digital version of this report, featuring a live dashboard with expanded variables and analyses, is accessible at: https://luminachallenge.streamlit.app/
 """)
 
 # --- SECTION: Introduction ---
