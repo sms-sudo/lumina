@@ -17,7 +17,7 @@ st.set_page_config(
 col1, col2 = st.columns([1, 4])  # Adjust ratio as needed (text:image)
 
 with col1:
-    st.image(image, width=100)  # Set desired pixel width here
+    st.image(image, width=350)  # Set desired pixel width here
 with col2:
     # --- REPORT PAGE ---
     st.title("🎓 Quantifying the Public Returns to Postsecondary Education in the United States")
