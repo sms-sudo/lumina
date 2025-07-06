@@ -217,3 +217,7 @@ with st.container():
     fig_combined.update_traces(marker=dict(size=12, color="blue"))
     fig_combined.update_layout(height=600)
     st.plotly_chart(fig_combined)
+    
+# --- FOOTER ---
+st.markdown("---")
+st.caption("M. Abdalla 2025")
