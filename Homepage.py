@@ -4,9 +4,6 @@ from PIL import Image
 # Load image (ensure the path is correct relative to your script)
 image = Image.open("public value metric dashboard.jpg")
 
-# Display as header image (with optional width or use_column_width)
-st.image(image)  # Makes it span the full width of the content area
-
 st.set_page_config(page_title="Lumina Challenge Submission", layout="wide")
 
 # --- PAGE CONFIG ---
@@ -16,11 +13,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- REPORT PAGE ---
-st.title("🎓 Quantifying the Public Returns to Postsecondary Education in the United States")
-st.markdown("##### A data-driven exploration of higher education's societal benefits")
-st.markdown("---")
+# Create two columns: one for the header, one for the image
+col1, col2 = st.columns([1, 4])  # Adjust ratio as needed (text:image)
 
+with col1:
+    st.image(image, width=100)  # Set desired pixel width here
+with col2:
+    # --- REPORT PAGE ---
+    st.title("🎓 Quantifying the Public Returns to Postsecondary Education in the United States")
+    st.markdown("##### A data-driven exploration of higher education's societal benefits")
+    st.markdown("---")
 
 # --- TABLE OF CONTENTS ---
 st.markdown("### 🔗 Jump to Section")
