@@ -136,5 +136,6 @@ with st.expander("📄 Show Table"):
     preview_df = preview_df[cols]
     st.dataframe(preview_df, use_container_width=True)
 
-# --- Footer ---
-st.caption("Made with 💙 for interactive data exploration.")
+# --- FOOTER ---
+st.markdown("---")
+st.caption("M. Abdalla 2025")
