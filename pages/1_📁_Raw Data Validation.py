@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
-st.set_page_config(page_title="📁 Bulk Dataset Loader", layout="wide")
+st.set_page_config(page_title="Bulk Dataset Loader", layout="wide")
 st.title("📦 Load and Parse All Survey Files")
 
 # --- Years to load ---
