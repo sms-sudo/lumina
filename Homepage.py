@@ -146,4 +146,4 @@ with st.expander("📅 Health Status Indicators (Self-Reported Days)", expanded=
 
 # --- FOOTER ---
 st.markdown("---")
-st.caption("M. Abdalla 2025")
+st.caption("M. Abdalla 2025, Demo developed by affiliates of Harvard Medical School and Massachusetts General Hospital")
