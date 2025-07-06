@@ -76,7 +76,7 @@ with st.expander("🍎 Health Behaviours", expanded=False):
         - Within last 30 days  
     - **Fruit and diet**
         - Fruit consumption  
-            - Consumed fruit less than one time per day  
+            - Consumed fruit at least than one time per day  
     - **Physical activity**
         - Physical activity  
     - **Vaccinations**
