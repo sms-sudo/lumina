@@ -6,7 +6,11 @@ import plotly.express as px
 st.set_page_config(page_title="Visualizations (Comparison)", layout="wide")
 st.title("📅 Visualizations (Comparison)")
 
-loaded_data = st.session_state["loaded_data"]
+# Check if "loaded_data" exists and is not empty
+if "loaded_data" not in st.session_state or st.session_state["loaded_data"] is None or st.session_state["loaded_data"].empty:
+    st.info("ℹ️ No data loaded. Please navigate to Raw Data Validation (on the left hand selection).")
+else:
+    loaded_data = st.session_state["loaded_data"]
 
 # --- Sidebar for options ---
 st.sidebar.header("🔧 Visualization Settings")
