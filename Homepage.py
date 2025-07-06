@@ -20,8 +20,8 @@ with col1:
     st.image(image, width=350)  # Set desired pixel width here
 with col2:
     # --- REPORT PAGE ---
-    st.title("🎓 Quantifying the Public Returns to Postsecondary Education in the United States")
-    st.markdown("##### A data-driven exploration of higher education's societal benefits")
+    st.title("🎓 Public Value Dashboard: Quantifying Postsecondary Education's Returns for Health, Community, Safety")
+    st.markdown("##### This demo dashboard was created in partial fulfillment of requirements for the “Quantifying the Public Returns to Postsecondary Education” challenge hosted by Lumina Foundation.")
     st.markdown("---")
 
 # --- TABLE OF CONTENTS ---
