@@ -40,41 +40,29 @@ An interactive digital version of this report, featuring a live dashboard with e
 st.markdown("## 🎯 Introduction: Defining the Public Value of Postsecondary Education")
 with st.expander("📘 Beyond Private Gains: Conceptualizing Societal Benefits", expanded=True):
     st.write("""
-    The discourse surrounding postsecondary education often centers on private benefits like increased earnings. However, this report emphasizes 
-    broader public value—benefits such as improved health, reduced crime, and stronger civic participation. These interconnected outcomes 
-    collectively amplify the public return on investment in higher education.
-    """)
+    The discourse surrounding postsecondary education often centers on its private benefits, such as increased individual earnings and improved employment prospects. However, a comprehensive understanding of higher education's impact necessitates a shift in focus to its broader public value—the collective societal benefits that accrue from an educated populace. Postsecondary education contributes to a more informed and engaged citizenry, fosters improved public health, correlates with reduced crime rates, stimulates innovation, and enhances overall civic participation. These multifaceted contributions collectively enrich the public good, extending far beyond the direct advantages experienced by credential holders. 
+    
+    The various dimensions of public value are not isolated but rather interconnected and mutually reinforcing. For instance, enhanced health outcomes, a key public health metric, can directly contribute to greater community participation and social capital by fostering a more active, resilient, and productive population. Similarly, increased civic engagement, a metric of community vitality, can strengthen the social fabric, potentially influencing public safety and overall community well-being. This interconnectedness suggests that improvements in one area, driven by educational attainment, can cascade into positive effects across other domains, thereby amplifying the overall public return on investment in higher education.""")
 
 # --- SECTION: Purpose and Objectives ---
 st.markdown("## 🔍 Purpose and Objectives of the Report")
 with st.expander("📈 Identifying metrics", expanded=True):
     st.write("""
-    The goal is to identify U.S. metrics and datasets that quantify the public returns to postsecondary education. Key criteria include the ability to 
-    disaggregate by educational attainment and region. The report provides a foundation for researchers and policymakers to understand the collective 
-    value of higher education using nationally representative data.
-    """)
+    The primary objective of this report is to identify and detail reliable, nationally representative U.S. metrics and datasets capable of quantifying the public returns to postsecondary education. A critical requirement is the ability to disaggregate these data by educational attainment levels (e.g., certificates, associate's, bachelor's, master's, doctoral degrees) and various regional levels (e.g., states, counties, metropolitan areas, school districts). By systematically cataloging these resources, this report aims to provide a robust, data-driven foundation for policymakers, researchers, and the public to better understand and articulate the societal dividendsof postsecondary education.""")
 
 # --- SECTION: Existing Frameworks ---
 st.markdown("## 🧭 Overview of Existing Frameworks")
 with st.expander("PostsecondaryValue.org", expanded=True):
     st.write("""
-    Uses College Scorecard, IPEDS, and ACS data to assess economic value across demographics, fields of study, institutional missions, and more.
-    Limitations include lack of earnings disaggregation by race/ethnicity.
-    """)
+    Several organizations are actively engaged in defining and measuring the public value of higher education, providing crucial context for this report's framework. PostsecondaryValue.org, through its Equitable Value Explorer, offers an innovative diagnostic tool built upon publicly available data from sources such as the College Scorecard, the Integrated Postsecondary Education Data System (IPEDS), and the U.S. Census Bureau's American Community Survey (ACS). This tool aims to assess the economic value delivered to students and, where data permits, how this value is distributed across various demographic groups. It also incorporates contextual factors like institutional mission, state policy, local labor market conditions, student enrollment, graduation rates, STEM field participation, cohort default rates, instructional expenditures, and minority-serving institution designations.""")
 
 with st.expander("Lumina Foundation", expanded=True):
     st.write("""
-    Focuses on metrics tied to completion, enrollment, and equity. Promotes the Public Value Metric concept and uses data for targeting interventions, 
-    particularly for underserved groups. Also highlights a rising skepticism toward higher education.
-    """)
+    The Lumina Foundation, the host of this challenge, is actively seeking to develop a "Public Value Metric" that outlines the societal benefits of increased educational attainment across communities. 3 Their research focuses on critical areas such as enrollment, persistence, and completion in postsecondary education, particularly for adult learners and individuals from underrepresented racial and ethnic groups. Lumina's own work uses data to discern effective strategies for different populations and conditions, striving towards a quantifiable goal of 60% of American adults holding a quality post-high school credential by 2025. Their studies also highlight a growing public skepticism towards higher education, even as the perceived value of a college degree persists.""")
 
 with st.expander("Key Data Challenges", expanded=True):
     st.write("""
-    - Lack of disaggregated data (e.g., race, military status)
-    - Difficulty capturing short-term credentials
-    - Need for more detailed microdata (e.g., PUMS, IPUMS)
-    """)
-
+    A significant challenge acknowledged by both PostsecondaryValue.org and more broadly, the Lumina Foundation is the incompleteness of available data, particularly concerning granular disaggregation. For instance, the College Scorecard currently lacks disaggregated earnings data by race and ethnicity, which impedes the precise calculation of equitable value metrics such as the Economic Value Index (EVI) and Economic Value Contribution (EVC) for specific student subgroups. Similarly, the Lumina Foundation emphasizes the need for more robust data sources on short-term credentials and comprehensive data systems that capture diverse student characteristics (e.g., race, age, caregiving status, military service, prior college experience) to accurately assess persistence and completion gaps. These data limitations underscore the critical importance of leveraging microdata, such as ACS Public Use Microdata Sample (PUMS) files and IPUMS datasets, which allow for custom analyses and more granular disaggregation than pre-tabulated aggregate tables can provide. """)
 # --- SECTION: Categorized Variables ---
 st.markdown("## 🧮 Health, Demographic, and Socioeconomic Variables")
 st.caption("These categories are used to analyze broader social outcomes associated with educational attainment.")
