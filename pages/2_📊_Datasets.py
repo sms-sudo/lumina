@@ -170,4 +170,4 @@ if selected_display in question_to_filename and years:
 
 # --- FOOTER ---
 st.markdown("---")
-st.caption("M. Abdalla 2025")
+st.caption("M. Abdalla 2025, Demo developed by affiliates of Harvard Medical School and Massachusetts General Hospital")
