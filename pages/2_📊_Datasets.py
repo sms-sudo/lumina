@@ -30,7 +30,7 @@ question_list = [
     "    🍻 Alcohol drink", 
     "    🍺 Binge drinkers", 
     "    🍷 Heavy drinkers", 
-    "    🍎 Consumed fruit less than one time per day",
+    "    🍎 Consumed fruit at least one time per day",
     "    🏃 Completed physical activity within past month",
     "    💉 Adults aged 65+ w/ flu shot",
     "    💉 Adults aged 65+ who have ever had a pneumonia vaccination",
