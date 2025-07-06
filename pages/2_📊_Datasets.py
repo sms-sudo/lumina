@@ -113,7 +113,7 @@ question_to_filename = {
 }
 
 # --- Dropdown ---
-selected_display = st.selectbox("🔽 Choose a question", question_list)
+selected_display = st.sidebar.selectbox("🔽 Choose a question", question_list)
 
 years = st.multiselect("📅 Select Year(s)", [2019, 2020, 2021, 2022, 2023], default=[2023])
 
@@ -123,23 +123,26 @@ if selected_display in question_to_filename:
     base_filename = question_to_filename[selected_display]
     st.markdown(f"### 📊 Results for: {selected_display.strip()}")
 
-    # Automatically sort selected years chronologically
-    sorted_years = sorted(years)
+    if not years:
+        st.info("Please select at least one year to view results.")
+    else:
+        # Automatically sort selected years chronologically
+        sorted_years = sorted(years)
 
-    # Create columns side by side
-    cols = st.columns(len(sorted_years))
+        # Create columns side by side
+        cols = st.columns(len(sorted_years))
 
-    for i, year in enumerate(sorted_years):
-        file_path = Path(__file__).resolve().parents[1] / "pages/data" / f"{base_filename}_{year}.csv"
-        with cols[i]:
-            st.markdown(f"**{year}**")
-            if file_path.exists():
-                df = parse_blocked_education_df(pd.read_csv(file_path))
-                if "n" in df.columns:
-                    df = df.drop(columns=["n"])
-                st.dataframe(df, use_container_width=True)
-            else:
-                st.error(f"File not found: {file_path.name}")
+        for i, year in enumerate(sorted_years):
+            file_path = Path(__file__).resolve().parents[1] / "pages/data" / f"{base_filename}_{year}.csv"
+            with cols[i]:
+                st.markdown(f"**{year}**")
+                if file_path.exists():
+                    df = parse_blocked_education_df(pd.read_csv(file_path))
+                    if "n" in df.columns:
+                        df = df.drop(columns=["n"])
+                    st.dataframe(df, use_container_width=True)
+                else:
+                    st.error(f"File not found: {file_path.name}")
 else:
     st.info("Please select a valid question (not a category heading).")
 
