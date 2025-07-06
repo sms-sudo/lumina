@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 import plotly.express as px
 
-st.set_page_config(page_title="📅 Visualizations (Comparison)", layout="wide")
+st.set_page_config(page_title="Visualizations (Comparison)", layout="wide")
 st.title("📅 Visualizations (Comparison)")
 
 loaded_data = st.session_state["loaded_data"]
