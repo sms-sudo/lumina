@@ -1,39 +1,39 @@
 Location,n,Percentage,95% CI
 Alabama,,,
-Less than H.S.,684,22.5,19.4-25.6
-H.S. or G.E.D.,144,34.6,26.8-42.4
-Some post-H.S.,55,64.9,52.3-77.6
-College graduate,789,77.6,74.7-80.5
+Less than H.S.,684,17.5,19.4-25.6
+H.S. or G.E.D.,144,29.6,26.8-42.4
+Some post-H.S.,55,59.9,52.3-77.6
+College graduate,789,72.6,74.7-80.5
 Alaska,,,
-Less than H.S.,311,20.3,15.8-24.8
-H.S. or G.E.D.,280,34.3,28.7-39.9
-Some post-H.S.,258,67.7,62.0-73.4
-College graduate,172,75.3,68.9-81.7
+Less than H.S.,311,19.8,15.8-24.8
+H.S. or G.E.D.,280,33.8,28.7-39.9
+Some post-H.S.,258,67.2,62.0-73.4
+College graduate,172,74.8,68.9-81.7
 Arizona,,,
-Less than H.S.,784,19.6,16.8-22.4
-H.S. or G.E.D.,134,36.6,28.5-44.8
-Some post-H.S.,722,61.6,58.1-65.2
-College graduate,788,71.6,68.5-74.8
+Less than H.S.,784,19.1,16.8-22.4
+H.S. or G.E.D.,134,36.1,28.5-44.8
+Some post-H.S.,722,61.1,58.1-65.2
+College graduate,788,71.1,68.5-74.8
 Arkansas,,,
-Less than H.S.,943,21.7,19.1-24.4
-H.S. or G.E.D.,588,29.3,25.6-32.9
-Some post-H.S.,119,57.8,49.0-66.7
-College graduate,634,71.3,67.8-74.8
+Less than H.S.,943,16.7,19.1-24.4
+H.S. or G.E.D.,588,24.3,25.6-32.9
+Some post-H.S.,119,52.8,49.0-66.7
+College graduate,634,66.3,67.8-74.8
 California,,,
 Less than H.S.,462,18.0,14.5-21.5
 H.S. or G.E.D.,62,35.9,24.0-47.9
 Some post-H.S.,60,60.3,47.9-72.7
 College graduate,125,68.8,60.6-76.9
 Colorado,,,
-Less than H.S.,253,25.4,20.0-30.8
-H.S. or G.E.D.,268,34.3,28.6-40.0
-Some post-H.S.,547,63.2,59.2-67.2
-College graduate,646,68.7,65.2-72.3
+Less than H.S.,253,26.4,20.0-30.8
+H.S. or G.E.D.,268,35.3,28.6-40.0
+Some post-H.S.,547,64.2,59.2-67.2
+College graduate,646,69.7,65.2-72.3
 Connecticut,,,
-Less than H.S.,57,19.4,9.1-29.6
-H.S. or G.E.D.,604,35.3,31.5-39.1
-Some post-H.S.,233,59.5,53.2-65.8
-College graduate,763,74.1,71.0-77.2
+Less than H.S.,57,20.4,9.1-29.6
+H.S. or G.E.D.,604,36.3,31.5-39.1
+Some post-H.S.,233,60.5,53.2-65.8
+College graduate,763,75.1,71.0-77.2
 Delaware,,,
 Less than H.S.,695,19.2,16.3-22.1
 H.S. or G.E.D.,748,34.1,30.7-37.5
@@ -100,15 +100,15 @@ H.S. or G.E.D.,226,34.1,27.9-40.3
 Some post-H.S.,751,63.3,59.8-66.7
 College graduate,101,67.0,57.9-76.2
 Maryland,,,
-Less than H.S.,76,20.3,11.3-29.4
-H.S. or G.E.D.,707,36.1,32.5-39.6
-Some post-H.S.,263,67.4,61.8-73.1
-College graduate,821,71.4,68.4-74.5
+Less than H.S.,76,21.3,11.3-29.4
+H.S. or G.E.D.,707,37.1,32.5-39.6
+Some post-H.S.,263,68.4,61.8-73.1
+College graduate,821,72.4,68.4-74.5
 Massachusetts,,,
-Less than H.S.,326,18.6,14.4-22.8
-H.S. or G.E.D.,111,33.5,24.7-42.3
-Some post-H.S.,905,65.7,62.7-68.8
-College graduate,268,74.0,68.7-79.2
+Less than H.S.,326,19.6,14.4-22.8
+H.S. or G.E.D.,111,34.5,24.7-42.3
+Some post-H.S.,905,66.7,62.7-68.8
+College graduate,268,75.0,68.7-79.2
 Michigan,,,
 Less than H.S.,917,19.4,16.9-22.0
 H.S. or G.E.D.,133,36.5,28.4-44.7
