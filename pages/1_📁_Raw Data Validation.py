@@ -10,6 +10,9 @@ years_to_load = [2019, 2020, 2021, 2022, 2023]
 
 # --- Your provided question_to_filename mapping ---
 question_to_filename = {
+    "    🤝 Formal Volunteer": "volunteer/formalvolunteer",
+    "    💸 Charity Donations": "volunteer/charitabledonations",
+    
     "    🍻 Alcohol drink": "alcohol drink/within last 30 days",
     "    🍺 Binge drinkers": "alcohol drink/Binge drinkers (males having five or more drinks on one occasion, females having four or more drinks on one occasion)",
     "    🍷 Heavy drinkers": "alcohol drink/Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)",
