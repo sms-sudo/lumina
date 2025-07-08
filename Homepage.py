@@ -75,6 +75,12 @@ with st.expander("Key Data Challenges", expanded=True):
 # --- SECTION: Categorized Variables ---
 st.markdown("## 🧮 Health, Demographic, and Socioeconomic Variables")
 st.caption("These categories are used to analyze broader social outcomes associated with educational attainment.")
+with st.expander("👪 Community Behaviours", expanded=False):
+    st.markdown("""
+    - **Volunteering**
+        - Formal Volunteering
+        - Charitable Donations
+    """)
 
 with st.expander("🍎 Health Behaviours", expanded=False):
     st.markdown("""
