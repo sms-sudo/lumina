@@ -57,6 +57,9 @@ us_state_abbrev = {
 }
 
 question_to_filename = {
+    "    🤝 Formal Volunteer": "volunteer/formalvolunteer",
+    "    💸 Charity Donations": "volunteer/charitabledonations",
+    
     "    🍻 Alcohol drink within past 30 days": "alcohol drink/within last 30 days",
     "    🍺 Binge drinkers (M 5+, F 4+ on one occasion)": "alcohol drink/Binge drinkers (males having five or more drinks on one occasion, females having four or more drinks on one occasion)",
     "    🍷 Heavy drinkers (M 14+, F 7+ in one week)": "alcohol drink/Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)",
