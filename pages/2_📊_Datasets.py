@@ -26,6 +26,10 @@ def parse_blocked_education_df(raw_df):
 
 # --- Flat dropdown list with visual headers ---
 question_list = [
+    "── Community Behaviors ──",
+    "    🤝 Formal Volunteer",
+    "    💸 Charity Donations",
+    
     "── Health Behaviors ──",
     "    🍻 Alcohol drink", 
     "    🍺 Binge drinkers", 
@@ -73,6 +77,9 @@ question_list = [
 
 # --- Map from question display to file base name ---
 question_to_filename = {
+    "    🤝 Formal Volunteer": "volunteer/formalvolunteer",
+    "    💸 Charity Donations": "volunteer/charitabledonations",
+    
     "    🍻 Alcohol drink": "alcohol drink/within last 30 days",
     "    🍺 Binge drinkers": "alcohol drink/Binge drinkers (males having five or more drinks on one occasion, females having four or more drinks on one occasion)",
     "    🍷 Heavy drinkers": "alcohol drink/Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)",
